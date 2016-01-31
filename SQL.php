@@ -34,8 +34,8 @@
 // 	unless your database server is running on a non-standard port.
 //  Examples:
 //		PostgreSQL (with port): "pgsql:host=localhost;port=5432;dbname=codiad";
-//		MySQL:					"mysql:host=localhost;dbname=codiad";
-//		SQLite:					"sqlite:/path/to/sqlite.db"
+//		MySQL:			"mysql:host=localhost;dbname=codiad";
+//		SQLite:			"sqlite:/path/to/sqlite.db"
 //	  Other database schemes supported by PDO may also work. Your mileage may vary.
 	$server = "mysql:host=localhost;dbname=codiad";
 	
@@ -54,7 +54,7 @@
 //	The columns within the above defined user table which correspond to the Codiad username 
 //  and password.
 //	Defaults: $username_column = "user";
-//			  $password_column = "password";
+//		  $password_column = "password";
 	$username_column = "user";
 	$password_column = "password";
 	
@@ -72,7 +72,7 @@
 // Codiad from within Codiad itself, rather than let the search filter fully
 // dictate user access control. 
 // 	Default is 'true'.
-    $createuser = true;
+	$createuser = true;
 
 /////////////////////////////////////////////////////////////////////////////
 // DO NOT EDIT ANYTHING UNDER THIS LINE UNLESS YOU KNOW WHAT YOU'RE DOING! //
