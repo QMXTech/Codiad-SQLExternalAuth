@@ -17,6 +17,8 @@ Written by Korynkai (Matt Schultz) of QuantuMatriX Technologies.
 
 ## Configuration
 
+Codiad-SQLExternalAuth should support most (if not all) database drivers supported by PDO. Please read http://php.net/manual/en/pdo.drivers.php for all the drivers supported and details for each driver.
+
 The following values should be set in accordance with the specific SQL set-up being used:
 
 * `$server` would be your SQL server's connection DSN (`port` is optional if the default port is used); For example:
